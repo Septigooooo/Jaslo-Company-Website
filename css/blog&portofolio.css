@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    line-height: 1.5;
+    background: #ffffff;
+    overflow-x: hidden;
+    font-size: 14px; 
+}
+
+
+
+body{
+    font-family: sans-serif;
+}
+
+/* Navbar */
+.site-nav {
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    width: 100%; 
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+.site-nav h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px; 
+}
+.site-nav .site-navigation .site-menu {
+    margin-bottom: 0; 
+}
+.site-nav .site-navigation .site-menu > li {
+    display: inline-block; 
+}
+.site-nav .site-navigation .site-menu > li > a {
+    font-size: 14px;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 1); 
+}
+.site-nav .site-navigation .site-menu > li > a:hover {
+    background-color: #4700D8; 
+}
+.site-nav .site-navigation .site-menu > li.cta-button a {
+    padding: 6px 20px;
+    color: #000000;
+    border-radius: 30px; 
+}
+.site-nav .site-navigation .site-menu > li.cta-button a:hover {
+    color: #000000;
+    background: #1A374D;
+    border-color: #1A374D; 
+}
+.site-nav .site-navigation .site-menu > li.active > a {
+    background-color: #4700D8; 
+}
+
+.logo {
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700; 
+}
+
+/* jumbotron */
+.hero-background{
+    background-image:linear-gradient(to bottom,rgba(0,0,0,10),rgba(0,0,0,0)), url("https://kelompok-4-hacktiv.netlify.app/img/kargo1.webp");
+    background-size: cover;
+    height: 330px;
+    margin-top: 50px;
+    
+}
+.img-capt{
+   line-height: 330px ;
+   color: white;
+}
+
+
+
+.judul{
+    padding: 7rem 0 9rem 0;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+/* content */
+.sub-header{
+    box-shadow: 1px 2px 6px grey;
+    width: 250px;
+    height: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.icon{
+    box-shadow: 1px 2px 6px grey;
+    width: 50px;
+    height: 50px;
+    
+}
+.sub-post{
+    font-size: 10px;
+    color: grey;
+    font-style: italic;
+    margin-top: -13px;
+}
+
+.card:hover{
+    background-color: rgba(0, 128, 255, 0.421);
+    box-shadow: 1px 2px 6px grey;
+    transition: all .3s;
+    cursor : pointer;
+}
+
+.img-hover:hover{
+    cursor: pointer;
+}
+/* footer */
+.site-footer {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.6; 
+}
+.site-footer .inner {
+    padding-top: 0px;
+    padding-bottom: 70px;
+    background: #f8f9fa; 
+}
+.site-footer .inner.first {
+    padding-top: 80px; }
+.site-footer .widget {
+    margin-bottom: 30px; }
+.site-footer .widget h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-family: "Inter", sans-serif; }
+.site-footer .widget .social li {
+    display: inline-block; }
+.site-footer .widget .social li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #1A374D;
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    -webkit-box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.2); 
+}
+.site-footer .widget .social li a span {
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
+}
+.site-footer .widget .social li a:hover {
+    background-color: #1A374D;
+    color: #ffffff; 
+}
+.site-footer .widget .links li {
+    display: block;
+    margin-bottom: 10px; 
+}
+.site-footer .widget .links li a {
+    color: #000000; 
+}
+.site-footer .widget .links li a:hover {
+    color: #000000;
+    text-decoration: underline; 
+}
+.site-footer ul.quick-info li {
+    position: relative;
+    padding-left: 30px; 
+}
+.site-footer ul.quick-info li:before {
+    left: 0;
+    position: absolute;
+    content: "";
+    font-family: 'icomoon';
+    color: #6998AB;
+}
+.site-footer ul.quick-info li.email:before {
+    content: "\f0e0"; 
+}
+.site-footer ul.quick-info li.phone:before {
+    content: "\f095"; 
+}
+.site-footer ul.quick-info li.address:before {
+    content: "\e8b4"; 
+}
+.section-title {
+    position: relative;
+    padding-bottom: 20px;
+    display: inline-block; 
+}
+.section-title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    background: #4700D8; 
+}
+.section-title.text-center:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); 
+}
+.partner{
+    color: white;
+}
+
+/* carosel porto */
+.carousel-item{
+    height: 500px;
+}
+
+/* content */
+.galerystle{
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    border-bottom: 3px solid #4700D8;
+
+}
+#carouselExampleIndicators{
+    background-color: #5cafee;
+}
+
+.hover-img:hover{
+    cursor: pointer;
+}
+
+.text-justify{
+    text-align: justify;
+}
